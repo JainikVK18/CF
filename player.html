@@ -1,0 +1,74 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+<meta name="author" content="LiveCricHd Embed">
+<meta name="designer" content="LiveCricHd">
+<meta name="description" content="Join Telegram Channel @livecrichdofficial">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css">
+<link href="https://cdn.jsdelivr.net/gh/halfmoonui/halfmoon@1.0.4/css/halfmoon.min.css" rel="stylesheet">
+<title>CRICXFOOTBALL-Player</title>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
+<script>
+if (confirm("Join Our Telegram Channel @cricxfootball")) {
+  window.location.href = "https://telegram.me/cricxfootball";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const streamUrl = urlParams.get("dtv");
+
+  if (!streamUrl) {
+    console.error("No m3u8 URL provided");
+    return;
+  }
+
+  const videoElement = document.querySelector("video");
+  const sourceElement = document.createElement("source");
+  sourceElement.src = streamUrl;
+  sourceElement.type = "application/x-mpegURL";
+  videoElement.appendChild(sourceElement);
+
+  const playerOptions = {};
+  if (Hls.isSupported()) {
+    const hlsConfig = {
+      'maxMaxBufferLength': 100 // adjust this value for smoother streaming
+    };
+    const hls = new Hls(hlsConfig);
+
+    hls.loadSource(streamUrl);
+    hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
+      const qualities = data.levels.map(level => level.height);
+      playerOptions.quality = {
+        'default': qualities[0],
+        'options': qualities,
+        'forced': true,
+        'onChange': function(newQuality) {
+          hls.levels.forEach((level, index) => {
+            if (level.height === newQuality) {
+              hls.currentLevel = index;
+            }
+          });
+        }
+      };
+
+      new Plyr(videoElement, playerOptions);
+    });
+    hls.attachMedia(videoElement);
+    window.hls = hls;
+  } else {
+    new Plyr(videoElement, playerOptions);
+  }
+});
+
+var currentDomain = window.location.hostname;
+if (currentDomain !== "cricxfootball.pages.dev") {
+  window.location.href = "https://telegram.me/cricxfootball";
+}
+</script>
+</head>
+<body class="dark-mode with-custom-scrollbars with-custom-css-scrollbars">
+  <video id="player" controls preload="metadata" poster="#" class="plyr">
+  </video>
+</body>
+</html>
