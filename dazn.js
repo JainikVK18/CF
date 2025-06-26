@@ -1,6 +1,6 @@
 const streamMap = {
-  m1: "https://dca-co-live-gcr.gcdn.co/1c85w1ockfu6j1m71c82q664ng/tv/stream.mpd?channel=1659&outlet=dazn-row&plang=en",
-  m2: "https://dcb-fl-live.dtcdn.dazn.com/5h03ihnwbmm6173ichv41k5wf/tv/stream.mpd?channel=1637&outlet=dazn-row&plang=en",
+  m1: "https://dcb-fl-live.dtcdn.dazn.com/1idqv4nzz2lyk1q1o6kd4ijpl2/tv/stream.mpd?channel=1641&outlet=dazn-row&plang=en",
+  m2: "https://dcb-fl-live.dtcdn.dazn.com/13gua9kfc29qy1hp1j04ew2yoc/tv/stream.mpd?channel=1639&outlet=dazn-dach&plang=en",
   m3: "https://example.com/stream3.mpd",
   // Add more as needed
 };
