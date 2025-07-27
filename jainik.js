@@ -1,10 +1,10 @@
 // streams.js
 
 const STREAMS = {
-    mpd1: {
-        url: "https://a204aivottepl-a.akamaihd.net/sin-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+    friendly: {
+        url: "https://tglmp04.akamaized.net/out/v1/5793335474d74566a8a0adfa260f22a9/manifest.mpd",
         keys: {
-            "7e9239c1982d984a002df3ed049d0756": "1b8a17598129a3618535c8fb05f103fe"
+            "5332345367554fd39588283a2b949d02": "8abcd0b3126923b068c26508e24c9f69"
         }
     },
     mpd2: {
