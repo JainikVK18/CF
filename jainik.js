@@ -13,4 +13,16 @@ const STREAMS = {
             "1a655189ab5c49eb235308c2b1a9e710": "3c4508af348844107f5e026a4fd6b16e"
         }
     },
+    bein2: {
+        url: "",
+        keys: {
+            "": ""
+        }
+    },
+    bein3: {
+        url: "",
+        keys: {
+            "": ""
+        }
+    },
 };
