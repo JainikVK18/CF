@@ -20,9 +20,9 @@ const STREAMS = {
         }
     },
     bein3: {
-        url: "",
+        url: "https://linearjitp-playback.astro.com.my/dash-wv/linear/2705/default_ott.mpd",
         keys: {
-            "": ""
+            "042a21bf236ca729b1e343ed6e0a6337": "20c884ef8ed26b2762f8b1a78f2d1910"
         }
     },
 };
