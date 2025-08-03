@@ -17,8 +17,6 @@ const STREAMS = {
         url: "https://linearjitp-playback.astro.com.my/dash-wv/linear/5066/default_ott.mpd",
         keys: {
             "39c175581e237eff9559607eb9b23c10": "5102b12aac7756c65dcb46a101d960d3"
-
-[Program finished]"
         }
     },
     bein3: {
