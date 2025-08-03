@@ -7,10 +7,10 @@ const STREAMS = {
             "5332345367554fd39588283a2b949d02": "8abcd0b3126923b068c26508e24c9f69"
         }
     },
-    mpd2: {
-        url: "https://example.com/another-stream/manifest.mpd",
+    Bein1: {
+        url: "https://linearjitp-playback.astro.com.my/dash-wv/linear/408/default_ott.mpd",
         keys: {
-            "deadbeefdeadbeefdeadbeefdeadbeef": "1234567890abcdef1234567890abcdef"
+            "1a655189ab5c49eb235308c2b1a9e710": "3c4508af348844107f5e026a4fd6b16e"
         }
     },
 };
