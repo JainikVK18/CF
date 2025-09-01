@@ -8,9 +8,9 @@ const STREAMS = {
         }
     },
     bein1: {
-        url: "https://linearjitp-playback.astro.com.my/dash-wv/linear/408/default_ott.mpd",
+        url: "https://live-atv-cdn.izzigo.tv/1/out/u/dash/TUDNHD/default.mpd",
         keys: {
-            "1a655189ab5c49eb235308c2b1a9e710": "3c4508af348844107f5e026a4fd6b16e"
+            "2722647f77b44824c432a3c4555830a2": "1734befb82f4b438bd84195f6c212e7b"
         }
     },
     bein2: {
