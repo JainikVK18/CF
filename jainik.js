@@ -19,10 +19,10 @@ const STREAMS = {
             "39c175581e237eff9559607eb9b23c10": "5102b12aac7756c65dcb46a101d960d3"
         }
     },
-    bein3: {
-        url: "https://linearjitp-playback.astro.com.my/dash-wv/linear/2705/default_ott.mpd",
+    WWC: {
+        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/f60kqesunw/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
         keys: {
-            "042a21bf236ca729b1e343ed6e0a6337": "20c884ef8ed26b2762f8b1a78f2d1910"
+            "1779c27b9d077a3ba0c9cc1bb9a94b9f": "cc5cf3b7928fb9e0a1ee6a8b566f0a8e"
         }
     },
 };
