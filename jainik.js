@@ -7,10 +7,10 @@ const STREAMS = {
             "5332345367554fd39588283a2b949d02": "8abcd0b3126923b068c26508e24c9f69"
         }
     },
-    bein1: {
-        url: "https://live-atv-cdn.izzigo.tv/1/out/u/dash/TUDNHD/default.mpd",
+    t4: {
+        url: "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
         keys: {
-            "2722647f77b44824c432a3c4555830a2": "1734befb82f4b438bd84195f6c212e7b"
+            "192b1115da041585c77200128549efa1": "634e10efe4abbb14be400a3ccbac0258"
         }
     },
     bein2: {
