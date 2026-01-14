@@ -16,7 +16,7 @@ const STREAMS = {
     SA20: {
         url: "https://ev-fast-mpd.starzplayarabia.com/live/eds/Criclife_3/DASH/Criclife_3.mpd",
         keys: {
-            "d06de29b0eacb81ac6e3f325849047e8": "https://lchd.pages.dev/c3?id=wwc"
+            "d06de29b0eacb81ac6e3f325849047e8": "d06de29b0eacb81ac6e3f325849047e8
         }
     },
     WWC: {
