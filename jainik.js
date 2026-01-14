@@ -13,10 +13,10 @@ const STREAMS = {
             "192b1115da041585c77200128549efa1": "634e10efe4abbb14be400a3ccbac0258"
         }
     },
-    bein2: {
-        url: "https://linearjitp-playback.astro.com.my/dash-wv/linear/5066/default_ott.mpd",
+    SA20: {
+        url: "https://ev-fast-mpd.starzplayarabia.com/live/eds/Criclife_3/DASH/Criclife_3.mpd",
         keys: {
-            "39c175581e237eff9559607eb9b23c10": "5102b12aac7756c65dcb46a101d960d3"
+            "d06de29b0eacb81ac6e3f325849047e8": "https://lchd.pages.dev/c3?id=wwc"
         }
     },
     WWC: {
